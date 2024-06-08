@@ -51,10 +51,11 @@ section {
 .skill,
 .work-item {
   flex: 1 1 300px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: #3EAEA3 solid 5px;
   padding: 20px;
   border-radius: 5px;
   background-color: #fff;
+  margin: 10px 32%;
 }
 
 .skill img,
@@ -81,3 +82,19 @@ footer li {
 h1 {
 text-align: center;
 }
+@media screen and (min-width: 600px) {
+  
+  .content {
+    max-width: 600px;
+  }
+  .skills-container,
+  .work-container {
+    justify-content: center;
+  }
+  .skill,
+  .work-item {
+    flex: 1 1 300px;
+  }
+  
+}
+  
